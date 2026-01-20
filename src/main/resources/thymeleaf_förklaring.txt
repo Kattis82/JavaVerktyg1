@@ -1,0 +1,17 @@
+Thymeleaf i din Jetty + Servlet-applikation (utan Spring)
+🧠 Grundidé
+
+Just nu (ovning1) gör dina servlets detta:
+
+Servlet → resp.getWriter().println("text")
+
+Med Thymeleaf vill vi istället göra:
+
+Servlet → Thymeleaf → HTML-template → webbläsare
+
+👉 Servlets finns kvar
+👉 Jetty finns kvar
+👉 Thymeleaf ersätter bara “println-HTML”
+
+Klassen ThymeleafConfig --> gör vad Spring Boot annars hade gjort åt dig automatiskt.
+
