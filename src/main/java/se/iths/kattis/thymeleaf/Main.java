@@ -16,6 +16,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        System.out.println("Test test 123");
 
         // 1. Konfigurera Thymeleaf
         ClassLoaderTemplateResolver resolver =
